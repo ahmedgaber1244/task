@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:checked="true"
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom"
+        android:title="TODO" />
+    <item
+        android:id="@+id/search"
+        android:checked="true"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"
+        android:title="TODO" />
+    <item
+        android:id="@+id/bellman"
+        android:checked="true"
+        app:showAsAction="ifRoom"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/notification"
+        android:checked="true"
+        android:icon="@drawable/notification"
+        app:showAsAction="ifRoom"
+        android:title="TODO" />
+    <item
+        android:id="@+id/profile"
+        android:checked="true"
+        android:icon="@drawable/profile"
+        app:showAsAction="ifRoom"
+        android:title="TODO" />
+
+
+</menu>

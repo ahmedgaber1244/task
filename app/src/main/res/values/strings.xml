@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">task</string>
+    <string name="you_are_in">You are in</string>
+    <string name="search_menu">Search Menu</string>
+    <string name="Warning">Warning</string>
+    <string name="view_all">view all</string>
+    <string name="check_your_internet_connectivity">Check Your Internet Connectivity</string>
+    <string name="you_already_home">You already Home</string>
+    <string name="HotSpots">HotSpots</string>
+    <string name="attarctions">Attarctions</string>
+    <string name="events">Events</string>
+    <string name="no_hotspots">Oops! There is no Hotspots</string>
+    <string name="no_events">Oops! There is no Events</string>
+    <string name="no_attractions">Oops! There is no Attractions</string>
+</resources>

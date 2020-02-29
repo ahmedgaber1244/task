@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="luckysms.gaber.task"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\files\projects\task\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\files\projects\task\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\files\projects\task\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\files\projects\task\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\files\projects\task\app\src\main\AndroidManifest.xml:5:5-76
+12-->C:\files\projects\task\app\src\main\AndroidManifest.xml:5:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\files\projects\task\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\files\projects\task\app\src\main\AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\files\projects\task\app\src\main\AndroidManifest.xml:7:5-81
+14-->C:\files\projects\task\app\src\main\AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\files\projects\task\app\src\main\AndroidManifest.xml:8:5-79
+15-->C:\files\projects\task\app\src\main\AndroidManifest.xml:8:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\221ec86240bc2d75e40517f062dad9bb\jetified-play-services-maps-16.0.0\AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\221ec86240bc2d75e40517f062dad9bb\jetified-play-services-maps-16.0.0\AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:16.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\221ec86240bc2d75e40517f062dad9bb\jetified-play-services-maps-16.0.0\AndroidManifest.xml:28:9-32
+20
+21    <application
+21-->C:\files\projects\task\app\src\main\AndroidManifest.xml:9:5-27:19
+22        android:name="luckysms.gaber.task.AppSession"
+22-->C:\files\projects\task\app\src\main\AndroidManifest.xml:10:9-35
+23        android:allowBackup="true"
+23-->C:\files\projects\task\app\src\main\AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\files\projects\task\app\src\main\AndroidManifest.xml:12:9-43
+27        android:label="@string/app_name"
+27-->C:\files\projects\task\app\src\main\AndroidManifest.xml:13:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\files\projects\task\app\src\main\AndroidManifest.xml:14:9-54
+29        android:supportsRtl="true"
+29-->C:\files\projects\task\app\src\main\AndroidManifest.xml:15:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme"
+31-->C:\files\projects\task\app\src\main\AndroidManifest.xml:16:9-40
+32        android:usesCleartextTraffic="true" >
+32-->C:\files\projects\task\app\src\main\AndroidManifest.xml:17:9-44
+33        <activity
+33-->C:\files\projects\task\app\src\main\AndroidManifest.xml:18:9-26:20
+34            android:name="luckysms.gaber.task.view.Activity.MainActivity"
+34-->C:\files\projects\task\app\src\main\AndroidManifest.xml:18:19-61
+35            android:configChanges="keyboardHidden|orientation"
+35-->C:\files\projects\task\app\src\main\AndroidManifest.xml:19:13-63
+36            android:theme="@style/AppTheme" >
+36-->C:\files\projects\task\app\src\main\AndroidManifest.xml:20:13-44
+37            <intent-filter>
+37-->C:\files\projects\task\app\src\main\AndroidManifest.xml:21:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\files\projects\task\app\src\main\AndroidManifest.xml:22:17-69
+38-->C:\files\projects\task\app\src\main\AndroidManifest.xml:22:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\files\projects\task\app\src\main\AndroidManifest.xml:24:17-77
+40-->C:\files\projects\task\app\src\main\AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->[com.karumi:dexter:4.2.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\5b1e8cc80a3129301cd3ea5e1ad7653a\jetified-dexter-4.2.0\AndroidManifest.xml:27:9-29:72
+44            android:name="com.karumi.dexter.DexterActivity"
+44-->[com.karumi:dexter:4.2.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\5b1e8cc80a3129301cd3ea5e1ad7653a\jetified-dexter-4.2.0\AndroidManifest.xml:28:13-60
+45            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Autocomplete -->
+45-->[com.karumi:dexter:4.2.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\5b1e8cc80a3129301cd3ea5e1ad7653a\jetified-dexter-4.2.0\AndroidManifest.xml:29:13-69
+46        <activity
+46-->[com.google.android.libraries.places:places:1.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\e28115fae8d2ddb782c1ec3de1a5d95f\jetified-places-1.0.0\AndroidManifest.xml:16:9-23:20
+47            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+47-->[com.google.android.libraries.places:places:1.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\e28115fae8d2ddb782c1ec3de1a5d95f\jetified-places-1.0.0\AndroidManifest.xml:17:13-91
+48            android:exported="false"
+48-->[com.google.android.libraries.places:places:1.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\e28115fae8d2ddb782c1ec3de1a5d95f\jetified-places-1.0.0\AndroidManifest.xml:18:13-37
+49            android:hardwareAccelerated="true"
+49-->[com.google.android.libraries.places:places:1.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\e28115fae8d2ddb782c1ec3de1a5d95f\jetified-places-1.0.0\AndroidManifest.xml:19:13-47
+50            android:label="@string/places_autocomplete_label"
+50-->[com.google.android.libraries.places:places:1.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\e28115fae8d2ddb782c1ec3de1a5d95f\jetified-places-1.0.0\AndroidManifest.xml:20:13-62
+51            android:theme="@style/PlacesAutocompleteThemeOverlay"
+51-->[com.google.android.libraries.places:places:1.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\e28115fae8d2ddb782c1ec3de1a5d95f\jetified-places-1.0.0\AndroidManifest.xml:21:13-66
+52            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+52-->[com.google.android.libraries.places:places:1.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\e28115fae8d2ddb782c1ec3de1a5d95f\jetified-places-1.0.0\AndroidManifest.xml:22:13-71
+53        </activity>
+54        <activity
+54-->[com.jakewharton:process-phoenix:2.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\43d790af9e061ef475ae2bd88944d1bd\process-phoenix-2.0.0\AndroidManifest.xml:8:9-11:75
+55            android:name="com.jakewharton.processphoenix.ProcessPhoenix"
+55-->[com.jakewharton:process-phoenix:2.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\43d790af9e061ef475ae2bd88944d1bd\process-phoenix-2.0.0\AndroidManifest.xml:9:13-73
+56            android:process=":phoenix"
+56-->[com.jakewharton:process-phoenix:2.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\43d790af9e061ef475ae2bd88944d1bd\process-phoenix-2.0.0\AndroidManifest.xml:10:13-39
+57            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+57-->[com.jakewharton:process-phoenix:2.0.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\43d790af9e061ef475ae2bd88944d1bd\process-phoenix-2.0.0\AndroidManifest.xml:11:13-72
+58        <activity
+58-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\3bc24c13a7b3f10fe702529a9f29d2c6\jetified-play-services-base-16.1.0\AndroidManifest.xml:23:9-26:75
+59            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+59-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\3bc24c13a7b3f10fe702529a9f29d2c6\jetified-play-services-base-16.1.0\AndroidManifest.xml:24:13-79
+60            android:exported="false"
+60-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\3bc24c13a7b3f10fe702529a9f29d2c6\jetified-play-services-base-16.1.0\AndroidManifest.xml:25:13-37
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\3bc24c13a7b3f10fe702529a9f29d2c6\jetified-play-services-base-16.1.0\AndroidManifest.xml:26:13-72
+62
+63        <meta-data
+63-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\d2ae364a98a9affbeb8c8229c9877e1c\jetified-play-services-basement-16.2.0\AndroidManifest.xml:23:9-25:69
+64            android:name="com.google.android.gms.version"
+64-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\d2ae364a98a9affbeb8c8229c9877e1c\jetified-play-services-basement-16.2.0\AndroidManifest.xml:24:13-58
+65            android:value="@integer/google_play_services_version" />
+65-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\gaber\.gradle\caches\transforms-2\files-2.1\d2ae364a98a9affbeb8c8229c9877e1c\jetified-play-services-basement-16.2.0\AndroidManifest.xml:25:13-66
+66    </application>
+67
+68</manifest>

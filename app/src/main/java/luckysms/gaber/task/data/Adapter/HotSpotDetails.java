@@ -67,19 +67,18 @@ public class HotSpotDetails extends RecyclerView.Adapter<HotSpotDetails.MyViewHo
         }
 
         if (AppSession.language.equalsIgnoreCase("ar")&&data.getArabicName()!=null&&!data.getArabicName().isEmpty()){
-            if (data.getArabicName().length() > 40) {
-                holder.cardName.setText(data.getArabicName().substring(0,37)+"...");
+            if (data.getArabicName().length() > 30) {
+                holder.cardName.setText(data.getArabicName().substring(0,27)+"...");
             }else {
                 holder.cardName.setText(data.getArabicName());
             }
         }else {
-            if (data.getName().length() > 40) {
-                holder.cardName.setText(data.getName().substring(0,37)+"...");
+            if (data.getName().length() > 30) {
+                holder.cardName.setText(data.getName().substring(0,27)+"...");
             }else {
                 holder.cardName.setText(data.getName());
             }
         }
-
     }
 
     @Override
